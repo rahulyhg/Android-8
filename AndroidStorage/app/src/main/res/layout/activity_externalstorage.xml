@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="Load from internal cache"
+        android:id="@+id/internalcache"
+        android:onClick="loadInternalCache"
+        android:layout_above="@+id/externalcache"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="5dp"
+        />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="Load from external cache"
+        android:id="@+id/externalcache"
+        android:layout_above="@+id/externalpublic"
+        android:layout_alignLeft="@+id/internalcache"
+        android:layout_alignStart="@+id/internalcache"
+        android:onClick="loadExternalCache"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="External public"
+        android:id="@+id/externalpublic"
+        android:onClick="loadExternalPublicFile"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginRight="7dp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="External Private"
+        android:id="@+id/externalprivate"
+        android:onClick="loadExternalPrivateFile"
+        android:layout_below="@+id/externalpublic"
+        android:layout_alignLeft="@+id/externalpublic"
+        android:layout_alignStart="@+id/externalpublic"
+        android:layout_marginRight="7dp"/>
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="save to internal cache"
+        android:id="@+id/saveinternalcachw"
+        android:layout_alignTop="@+id/internalcache"
+        android:layout_toRightOf="@+id/internalcache"
+        android:layout_toEndOf="@+id/internalcache"
+        android:onClick="saveInternalCache"/>
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="Save to external cache"
+        android:id="@+id/saveexternalcache"
+        android:layout_below="@+id/internalcache"
+        android:layout_toRightOf="@+id/internalcache"
+        android:layout_toEndOf="@+id/internalcache"
+        android:onClick="saveExternalCache"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="save external public"
+        android:id="@+id/externalpublicfile"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/externalpublic"
+        android:layout_toEndOf="@+id/externalpublic"
+        android:onClick="saveFileExternalPublic"/>
+
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="Save External Private"
+        android:id="@+id/saveexternalprivate"
+        android:layout_alignBottom="@+id/externalprivate"
+        android:layout_toRightOf="@+id/externalprivate"
+        android:layout_toEndOf="@+id/externalprivate"
+        android:onClick="saveExternalFilePrivate"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter the data"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:textSize="16dp"/>
+
+</RelativeLayout>
