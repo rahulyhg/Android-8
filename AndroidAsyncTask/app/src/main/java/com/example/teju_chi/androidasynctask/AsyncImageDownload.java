@@ -8,9 +8,7 @@ import android.os.Environment;
 import android.view.View;
 import android.view.Window;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.EditText;
-import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.Toast;
@@ -21,6 +19,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
+
 
 /**
  * Created by Teju-Chi on 12/7/2015.
@@ -45,11 +44,11 @@ public class AsyncImageDownload extends Activity implements AdapterView.OnItemCl
 
     public void downloadImage(View view){
 
-
         String url=display_url.getText().toString();
         System.out.println("display_url "+url);
         new MyClass().execute(url);
     }
+
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
         display_url.setText(imagesurl[position]);
@@ -92,8 +91,6 @@ public class AsyncImageDownload extends Activity implements AdapterView.OnItemCl
                     publishProgress(counter);
                 }
             } catch (IOException e) {
-
-
                 e.printStackTrace();
 
             } finally {
