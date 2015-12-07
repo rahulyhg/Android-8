@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidAsyncTask</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="urls">
+        <item>Image 1</item>
+        <item>Image 2</item>
+        <item>Image 3</item>
+    </string-array>
+    <string-array name="imageurls">
+        <item>http://intrawallpaper.com/wp-content/uploads/wallpaper-40331-41273-hd-wallpapers.jpg</item>
+        <item>http://intrawallpaper.com/wp-content/uploads/france-wallpaper-25957-26641-hd-wallpapers.jpg</item>
+        <item>http://cdn.wonderfulengineering.com/wp-content/uploads/2014/09/new-wallpaper-1.jpeg</item>
+
+    </string-array>
+
+</resources>
