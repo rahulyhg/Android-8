@@ -1,11 +1,14 @@
 package com.example.teju_chi.androidbaseclassadapters;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.content.res.Resources;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.ListView;
 
@@ -40,7 +43,16 @@ public class MainActivity extends Activity {
             i++;
         }
 
-        BaseClassAdapter b=new BaseClassAdapter(this,R.layout.activity_main,arrayList);
+        BaseClassAdapter b=new BaseClassAdapter(this,arrayList);
         listView.setAdapter(b);
+        int count=b.getCount();
+        Log.d("getCount()","getCount() is "+count);
+        Log.d("getCount","getItem is "+b.getItem(3).toString());
+        Log.d("getCount ","getItemId is "+b.getItemId(1));
+    }
+
+    public void arrayAdapter(View view){
+        Intent i=new Intent(this,ArrayClassAdapter.class);
+        startActivity(i);
     }
 }
