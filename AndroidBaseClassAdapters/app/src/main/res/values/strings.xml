@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidBaseClassAdapters</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="Title">
+        <item>Mime 1</item>
+        <item>Mime 2</item>
+        <item>Mime 3</item>
+        <item>Mime 4</item>
+        <item>Mime 5</item>
+        <item>Mime 6</item>
+        <item>Mime 7</item>
+        <item>Mime 8</item>
+        <item>Mime 9</item>
+
+    </string-array>
+    <string-array name="Desc">
+        <item>The desc of 1</item>
+        <item>The desc of 2</item>
+        <item>The desc of 3</item>
+        <item>The desc of 4</item>
+        <item>The desc of 5</item>
+        <item>The desc of 6</item>
+        <item>The desc of 7</item>
+        <item>The desc of 8</item>
+        <item>The desc of 9</item>
+
+    </string-array>
+
+</resources>
