@@ -1,5 +1,6 @@
 package com.example.nz160.android_tabs;
 
+import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
@@ -26,7 +27,7 @@ public class Fragment2 extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.activity_fragment2, container, false);
+        return inflater.inflate(R.layout.activity_fragment2,container,false);
     }
 
 }
