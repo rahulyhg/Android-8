@@ -1,31 +1,21 @@
 package com.example.nz160.android_tabs;
 
-import android.app.TabActivity;
-import android.app.assist.AssistStructure;
 import android.content.Context;
-import android.content.Intent;
 import android.content.res.Resources;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
-import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
-import android.view.MotionEvent;
 import android.view.View;
-import android.view.ViewGroup;
-import android.widget.FrameLayout;
 import android.widget.HorizontalScrollView;
-import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
 import android.widget.TabHost;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -40,6 +30,7 @@ public  class MainActivity extends AppCompatActivity implements ViewPager.OnPage
 
     ViewPager viewPager;
     TabHost tabhost;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -56,15 +47,16 @@ public  class MainActivity extends AppCompatActivity implements ViewPager.OnPage
         TabHost.TabSpec tabSpec;
         Resources res=getResources();
 
-        String[] tabNames={"tab1","Tab2","Tab3","Tab4","Tab5"};
+        String[] tabNames={"tab1","Tab2","Tab3"};
+        Drawable mySelector = getResources().getDrawable(R.drawable.tab_icons);
+
         for(int i=0;i<tabNames.length;i++){
             tabSpec=tabhost.newTabSpec(tabNames[i])
-                    .setIndicator(tabNames[i],res.getDrawable(R.drawable.speaker))
+                    .setIndicator(tabNames[i],mySelector)
                     .setContent(new TabContent(getApplicationContext()));
             tabhost.addTab(tabSpec);
         }
         tabhost.setOnTabChangedListener(this);
-
     }
 
     @Override
@@ -116,8 +108,6 @@ public  class MainActivity extends AppCompatActivity implements ViewPager.OnPage
 
         viewPager.setAdapter(adapter);
         viewPager.setOnPageChangeListener(this);
-
-
 
     }
 
