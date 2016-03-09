@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Checkout</title>
+		<link rel="stylesheet" type="text/css" href="css.css">
+		<script type="text/javascript" href="js.js"></script>
+	</head>
+	<body>
+		<header>
+			<section id="topbar">
+				<a href="" class="website-logo-link">
+					<img src="logo.svg" width="237px" height="100px" title="Website Name">
+				</a>
+				<img src="img2.png" class="website-imgs" width="230px" height="100px">
+				<img src="img1.png" class="website-imgs" width="230px" height="100px">
+				<div class="clear"></div>
+			</section>
+			<nav>
+				<ul>
+					<li>Home</li>
+					<li>Signup</li>
+					<li>Shopping Cart</li>
+					<li>Contact Us</li>
+				</ul>
+				<div class="clear"></div>
+			</nav>
+		</header>
+		<section id="cart-details">
+			<b>Welcome <?php echo $posted['email']; ?>. <span class="color-yellow">Your Shopping Cart</span> - Total Items : 1, Total Amount : <?php echo $posted['amount']; ?></b>
+		</section>
+		<section id="cart-proceed">
+			Pay with Payu<br>
+			<button type="submit">Proceed</button>
+		</section>
+	</body>
+</html>
