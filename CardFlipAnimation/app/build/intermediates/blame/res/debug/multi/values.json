@@ -1,0 +1,220 @@
+[
+    {
+        "outputFile": "D:\\Android project\\Android-Projects\\Personal_Repo\\Android\\CardFlipAnimation\\app\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 40,
+                    "endOffset": 91
+                },
+                "from": {
+                    "file": "D:\\Android project\\Android-Projects\\Personal_Repo\\Android\\CardFlipAnimation\\app\\src\\main\\res\\values\\ids.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 387,
+                        "endColumn": 41,
+                        "endOffset": 424
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 96,
+                    "endColumn": 40,
+                    "endOffset": 132
+                },
+                "from": {
+                    "file": "D:\\Android project\\Android-Projects\\Personal_Repo\\Android\\CardFlipAnimation\\app\\src\\main\\res\\values\\ids.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 345,
+                        "endColumn": 41,
+                        "endOffset": 382
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 137,
+                    "endColumn": 53,
+                    "endOffset": 186
+                },
+                "from": {
+                    "file": "D:\\Android project\\Android-Projects\\Personal_Repo\\Android\\CardFlipAnimation\\app\\src\\main\\res\\values\\integers.xml",
+                    "position": {
+                        "startLine": 1,
+                        "startColumn": 4,
+                        "startOffset": 16,
+                        "endColumn": 53,
+                        "endOffset": 65
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 191,
+                    "endColumn": 53,
+                    "endOffset": 240
+                },
+                "from": {
+                    "file": "D:\\Android project\\Android-Projects\\Personal_Repo\\Android\\CardFlipAnimation\\app\\src\\main\\res\\values\\integers.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 70,
+                        "endColumn": 53,
+                        "endOffset": 119
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 245,
+                    "endColumn": 50,
+                    "endOffset": 291
+                },
+                "from": {
+                    "file": "D:\\Android project\\Android-Projects\\Personal_Repo\\Android\\CardFlipAnimation\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 215,
+                        "endColumn": 50,
+                        "endOffset": 261
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 296,
+                    "endColumn": 51,
+                    "endOffset": 343
+                },
+                "from": {
+                    "file": "D:\\Android project\\Android-Projects\\Personal_Repo\\Android\\CardFlipAnimation\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 266,
+                        "endColumn": 51,
+                        "endOffset": 313
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 348,
+                    "endColumn": 54,
+                    "endOffset": 398
+                },
+                "from": {
+                    "file": "D:\\Android project\\Android-Projects\\Personal_Repo\\Android\\CardFlipAnimation\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 54,
+                        "endOffset": 106
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 403,
+                    "endColumn": 52,
+                    "endOffset": 451
+                },
+                "from": {
+                    "file": "D:\\Android project\\Android-Projects\\Personal_Repo\\Android\\CardFlipAnimation\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 111,
+                        "endColumn": 52,
+                        "endOffset": 159
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 456,
+                    "endColumn": 50,
+                    "endOffset": 502
+                },
+                "from": {
+                    "file": "D:\\Android project\\Android-Projects\\Personal_Repo\\Android\\CardFlipAnimation\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 164,
+                        "endColumn": 50,
+                        "endOffset": 210
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 507,
+                    "endLine": 17,
+                    "endColumn": 12,
+                    "endOffset": 793
+                },
+                "from": {
+                    "file": "D:\\Android project\\Android-Projects\\Personal_Repo\\Android\\CardFlipAnimation\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 191,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 481
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 798,
+                    "endLine": 20,
+                    "endColumn": 12,
+                    "endOffset": 953
+                },
+                "from": {
+                    "file": "D:\\Android project\\Android-Projects\\Personal_Repo\\Android\\CardFlipAnimation\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 522,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 679
+                    }
+                }
+            }
+        ]
+    }
+]
