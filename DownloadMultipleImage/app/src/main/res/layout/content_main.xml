@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.nz160.compliance4all.MainActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#dddddd">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <!-- Wall paper -->
+            <ImageView
+                android:id="@+id/pager_introduction"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:fitsSystemWindows="true"
+                android:scaleType="fitXY"
+                tools:listitem="@layout/pager_item">
+
+            </ImageView>
+            <!-- wallpaper dots -->
+            <RelativeLayout
+                android:id="@+id/viewPagerIndicator"
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:gravity="center"
+                android:layout_margin="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_centerHorizontal="true">
+            </RelativeLayout>
+
+            <!-- wallpaper dots -->
+            <LinearLayout
+                android:id="@+id/viewPagerCountDots"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="180dp"
+                android:layout_marginLeft="170dp"
+                android:orientation="horizontal"
+                android:clickable="true"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>
