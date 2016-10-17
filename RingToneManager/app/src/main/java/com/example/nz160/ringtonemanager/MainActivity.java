@@ -14,14 +14,11 @@ import android.media.Ringtone;
 import android.media.RingtoneManager;
 import android.net.Uri;
 import android.os.Bundle;
-import android.os.SystemClock;
 import android.support.v4.app.TaskStackBuilder;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.NotificationCompat;
 import android.util.Log;
-import android.view.Menu;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.Toast;
 
@@ -45,6 +42,7 @@ public class MainActivity extends ActionBarActivity {
     private final long[] pattern = { 100, 300, 300, 300 };// Vibrate pattern in
 
     private NotificationManager mNotificationManager;
+    private Calendar calNow;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,38 +52,36 @@ public class MainActivity extends ActionBarActivity {
         // Set by default alarm sound
         alarmSound = RingtoneManager
                 .getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
+        alarmManager = (AlarmManager)(this.getSystemService( Context.ALARM_SERVICE ));
 
         // setting notification manager
         mNotificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
-        ArrayList<PendingIntent> intentArray = new ArrayList<PendingIntent>();
-        int[] alarm_min={03,04,05};
+       /// int[] alarm_min={03,04,05};
         //Get the current time and set alarm after 10 seconds from current time
         // so here we get
-        for(int i=0;i<alarm_min.length;i++) {
+        //for(int i=0;i<alarm_min.length;i++) {
             //RegisterAlarmBroadcast();
-            Calendar calNow = Calendar.getInstance();
+        calNow = Calendar.getInstance();
            // Calendar calSet = (Calendar) calNow.clone();
             calNow.set(Calendar.YEAR, 2016);
             calNow.set(Calendar.MONTH, 9);
             calNow.set(Calendar.DAY_OF_MONTH, 17);
             calNow.set(Calendar.HOUR_OF_DAY, 6);
-            calNow.set(Calendar.MINUTE, 16);
+            calNow.set(Calendar.MINUTE, 56);
             calNow.set(Calendar.MILLISECOND, 0);
             calNow.set(Calendar.SECOND, 0);
             calNow.set(Calendar.AM_PM, Calendar.PM);
 
-            RegisterAlarmBroadcast(i);
-            alarmManager.set(AlarmManager.RTC_WAKEUP, calNow.getTimeInMillis(), pendingIntent);
-        }
+           // RegisterAlarmBroadcast(i);
+           // alarmManager.set(AlarmManager.RTC_WAKEUP, calNow.getTimeInMillis(), pendingIntent);
+        //}
+        RegisterAlarmBroadcast(0);
+
     }
 
     private void RegisterAlarmBroadcast(int i)
     {
-        Log.i("Alarm Example:RegisterAlarmBroadcast()", "Going to register Intent.RegisterAlramBroadcast");
-
-        //This is the call back function(BroadcastReceiver) which will be call when your
-        //alarm time will reached.
-        mReceiver = new BroadcastReceiver()
+     /*   mReceiver = new BroadcastReceiver()
         {
             private static final String TAG = "Alarm Example Receiver";
             @Override
@@ -93,35 +89,41 @@ public class MainActivity extends ActionBarActivity {
             {
                 Log.i(TAG, "BroadcastReceiver::OnReceive() >>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
                 Toast.makeText(context, "Congrats!. Your Alarm time has been reached", Toast.LENGTH_LONG).show();
+                NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(
+                        MainActivity.this);// Setting builder
                 Intent resultIntent = new Intent(MainActivity.this,
-                        NotificationActivity.class);
+                        AlarmReceiverActivity.class);
 
-                resultIntent.putExtra("notificationId", notificationID_SingleLine);// put
-                // notification
-                // id
-                // into
-                // intent
-                resultIntent.putExtra("message", "http://androhub.com");//Your message to show in next activity
 
                 // Task builder to maintain task for pending intent
                 TaskStackBuilder stackBuilder = TaskStackBuilder.create(MainActivity.this);
                 stackBuilder.addParentStack(NotificationActivity.class);
-		/* Adds the Intent that starts the Activity to the top of the stack */
+		// Adds the Intent that starts the Activity to the top of the stack
                 stackBuilder.addNextIntent(resultIntent);
 
                 PendingIntent resultPendingIntent = stackBuilder.getPendingIntent(0,
                         PendingIntent.FLAG_UPDATE_CURRENT);// Set flag to update current
-                //mBuilder.setContentIntent(resultPendingIntent);// set content intent
-                displayNotificationSingleLine();
+                mBuilder.setContentIntent(resultPendingIntent);// set content intent
+
+		// notificationID allows you to update the notification later on.
+                mNotificationManager
+                        .notify(notificationID_SingleLine, mBuilder.build());
+
+                //displayNotificationSingleLine();
                 //playSound(MainActivity.this, getAlarmUri());
 
             }
-        };
+        };*/
 
         // register the alarm broadcast here
-        registerReceiver(mReceiver, new IntentFilter("com.techblogon.alarmexample") );
-        pendingIntent = PendingIntent.getBroadcast( this, i, new Intent("com.techblogon.alarmexample"),0 );
-        alarmManager = (AlarmManager)(this.getSystemService( Context.ALARM_SERVICE ));
+        //registerReceiver(mReceiver, new IntentFilter("com.techblogon.alarmexample") );
+        //pendingIntent = PendingIntent.getBroadcast( this, i, new Intent("com.techblogon.alarmexample"),0 );
+        Intent intent = new Intent(this, AlarmReceiverActivity.class);
+
+        PendingIntent sender = PendingIntent.getBroadcast(this, 0, intent,
+                PendingIntent.FLAG_UPDATE_CURRENT);
+
+        alarmManager.set(AlarmManager.RTC_WAKEUP, calNow.getTimeInMillis(), sender);
     }
     public void StopAlarm(View v)
     {

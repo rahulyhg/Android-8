@@ -21,13 +21,10 @@ import java.io.IOException;
 /**
  * Created by nz160 on 17-10-2016.
  */
-public class AlarmReceiverActivity extends Activity {
+public class AlarmReceiverActivity extends BroadcastReceiver {
     private MediaPlayer mMediaPlayer;
 
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.alarm);
-    }
+
 
     private void playSound(Context context, Uri alert) {
         mMediaPlayer = new MediaPlayer();
@@ -59,5 +56,14 @@ public class AlarmReceiverActivity extends Activity {
             }
         }
         return alert;
+    }
+
+    @Override
+    public void onReceive(Context context, Intent intent) {
+        Toast.makeText(context, "Congrats!. Your Alarm time has been reached", Toast.LENGTH_LONG).show();
+        Intent i = new Intent();
+        i.setClassName("com.example.nz160.ringtonemanager", "com.example.nz160.ringtonemanager.NotificationActivity");
+        i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        context.startActivity(i);
     }
 }
