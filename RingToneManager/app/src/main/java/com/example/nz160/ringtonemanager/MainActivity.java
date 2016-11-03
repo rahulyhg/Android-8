@@ -39,7 +39,7 @@ public class MainActivity extends ActionBarActivity {
             calSet.set(Calendar.YEAR, 2016);
             calSet.set(Calendar.MONTH, 9);
             calSet.set(Calendar.DAY_OF_MONTH, 18);
-            calSet.set(Calendar.HOUR_OF_DAY, 5);
+            calSet.set(Calendar.HOUR_OF_DAY, 4);
             calSet.set(Calendar.MINUTE, alarm_min[i]);
             calSet.set(Calendar.MILLISECOND, 0);
             calSet.set(Calendar.SECOND, 0);
