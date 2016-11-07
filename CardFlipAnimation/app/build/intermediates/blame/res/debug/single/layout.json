@@ -8,11 +8,27 @@
         "source": "D:\\Android project\\Android-Projects\\Personal_Repo\\Android\\CardFlipAnimation\\app\\src\\main\\res\\layout\\activity_card_flip.xml"
     },
     {
+        "merged": "D:\\Android project\\Android-Projects\\Personal_Repo\\Android\\CardFlipAnimation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_card_back.xml",
+        "source": "D:\\Android project\\Android-Projects\\Personal_Repo\\Android\\CardFlipAnimation\\app\\src\\main\\res\\layout\\fragment_card_back.xml"
+    },
+    {
+        "merged": "D:\\Android\\Android\\CardFlipAnimation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\Android\\Android\\CardFlipAnimation\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
         "merged": "D:\\Android project\\Android-Projects\\Personal_Repo\\Android\\CardFlipAnimation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_card_front.xml",
         "source": "D:\\Android project\\Android-Projects\\Personal_Repo\\Android\\CardFlipAnimation\\app\\src\\main\\res\\layout\\fragment_card_front.xml"
     },
     {
-        "merged": "D:\\Android project\\Android-Projects\\Personal_Repo\\Android\\CardFlipAnimation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_card_back.xml",
-        "source": "D:\\Android project\\Android-Projects\\Personal_Repo\\Android\\CardFlipAnimation\\app\\src\\main\\res\\layout\\fragment_card_back.xml"
+        "merged": "D:\\Android\\Android\\CardFlipAnimation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_card_flip.xml",
+        "source": "D:\\Android\\Android\\CardFlipAnimation\\app\\src\\main\\res\\layout\\activity_card_flip.xml"
+    },
+    {
+        "merged": "D:\\Android\\Android\\CardFlipAnimation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_card_front.xml",
+        "source": "D:\\Android\\Android\\CardFlipAnimation\\app\\src\\main\\res\\layout\\fragment_card_front.xml"
+    },
+    {
+        "merged": "D:\\Android\\Android\\CardFlipAnimation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_card_back.xml",
+        "source": "D:\\Android\\Android\\CardFlipAnimation\\app\\src\\main\\res\\layout\\fragment_card_back.xml"
     }
 ]
