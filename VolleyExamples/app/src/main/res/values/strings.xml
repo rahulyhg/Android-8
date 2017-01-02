@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Compliance4All</string>
+    <string name="action_settings">Settings</string>
+    <string name="article">Kindly let us know about any articles you have published and/or speaking
+        engagements you have taken part in.</string>
+    <string name="topic">Which topic/subjects do you like to speak on?</string>
+    <string-array name="drawer_list_array1">
+        <item>Home</item>
+        <item>Webinars</item>
+        <item>Webinar Packs</item>
+        <item>Speakers</item>
+        <item>Speaker Opportunity</item>
+        <item>Suggest a Topic</item>
+        <item>Subscribe Newsletter</item>
+    </string-array>
+    <string-array name="filter">
+        <item><font color="#00ff00">Category </font></item>
+        <item><font color="#00ff00">Speakers </font></item>
+        <item><font color="#ffffff">Month </font></item>
+    </string-array>
+    <string-array name="spinner">
+        <item>4-7</item>
+        <item>8-10</item>
+        <item>10-12</item>
+        <item>10-12</item>
+        <item>15+</item>
+
+    </string-array>
+    <string-array name="nav_drawer_icons">
+        <item>@drawable/ic_home_black_24dp</item>
+        <item>@drawable/ic_computer_black_24dp</item>
+        <item>@drawable/ic_computer_black_24dp</item>
+        <item>@drawable/ic_group_black_24dp</item>
+        <item>@drawable/ic_keyboard_voice_black_24dp</item>
+        <item>@drawable/ic_keyboard_voice_black_24dp</item>
+    </string-array>
+    <string-array name="live_webinar">
+        <item>Management Review: The Complete Requirements</item>
+        <item>Requirements Review: The Complete Requirements</item>
+        <item>Complete Review: The Complete Management</item>
+        <item>Review Review: The Complete Complete</item>
+        <item>Management Review: The Complete Review</item>
+    </string-array>
+
+    <string-array name="recorded_webinar">
+        <item>Management Review: The Complete Requirements</item>
+        <item>Requirements Review: The Complete Requirements</item>
+        <item>Complete Review: The Complete Management</item>
+        <item>Review Review: The Complete Complete</item>
+        <item>Management Review: The Complete Review</item>
+    </string-array>
+
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer close</string>
+    <string name="email">Email Id</string>
+    <string name="passowrd">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="show_pwd">Show Password</string>
+    <string name="hide_pwd">Hide Password</string>
+    <string name="forgot">Forgot password?</string>
+    <string name="closebutton">Close Button for Activity</string>
+    <string name="newUser">Not a Member yet? Sign Up here.</string>
+    <string name="fullName">Full Name</string>
+    <string name="mobileNumber">Mobile Number</string>
+    <string name="location">Location</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="terms_conditions">I agree to all the Terms and Conditions.</string>
+    <string name="signUp">SIGN UP</string>
+    <string name="already_user">Already have Account? </string>
+    <string name="registered_emailid">Please enter your Registered Email Id below:</string>
+    <string name="submit">SUBMIT</string>
+    <string name="back">BACK</string>
+    <string name="error">Sorry, an error is occurred.</string>
+    <string name="reload">TAP TO RETRY</string>
+    <string name="purchase">PURCHASE DETAILS</string>
+    <string name="email_notification">I want compliance4All to send me email notifications on new, latest updates on regulations and compliance training sessions on my email Id.</string>
+    <string name="email_subscription">I agree to the Terms of Service By clicking on Subscribe button, I agree to receive mail notifications on new, latest updates on regulations and compliance training sessions.</string>
+</resources>

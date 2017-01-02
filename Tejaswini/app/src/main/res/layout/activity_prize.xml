@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.v4.widget.NestedScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="com.evs.demo.layout.FixedScrollingViewBehavior"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/prize_layout">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:id="@+id/live_prize">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Live"
+                android:textSize="20dp"
+                android:layout_centerHorizontal="true"
+                android:textColor="#16a085"
+                android:id="@+id/prize_title"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="One Dial-in One Attendee"
+                android:id="@+id/live_prize_detail"
+                android:layout_below="@+id/prize_title"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$0"
+                android:background="@drawable/corners"
+                android:id="@+id/live_prise"
+                android:textColor="#ffffff"
+                android:layout_marginRight="23dp"
+                android:layout_marginEnd="23dp"
+                android:layout_below="@+id/prize_title"
+                android:layout_toLeftOf="@+id/live_checkBox"
+                android:layout_toStartOf="@+id/live_checkBox" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/live_checkBox"
+                android:layout_gravity="right"
+                android:layout_marginRight="25dp"
+                android:layout_marginEnd="25dp"
+                android:checked="false"
+                android:layout_alignTop="@+id/live_prize_detail"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E1E5E8"
+            android:layout_marginLeft="-10dp"
+            android:layout_marginRight="-10dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="15dp"
+            android:layout_below="@+id/live_prize"
+            android:id="@+id/corporate_live_prize">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Corporate Live"
+                android:textSize="20dp"
+                android:layout_centerHorizontal="true"
+                android:textColor="#f39c12"
+                android:id="@+id/corporate_live_title"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Any number of participants \nfrom a single location"
+                android:id="@+id/corporate_live_detail"
+                android:layout_below="@id/corporate_live_title"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#333"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$0"
+                android:background="@drawable/corners2"
+                android:textColor="#ffffff"
+                android:layout_marginRight="22dp"
+                android:id="@+id/corporate_live_prise"
+                android:layout_below="@+id/corporate_live_title"
+                android:layout_toLeftOf="@+id/corporate_live_detail_checkBox"
+                android:layout_toStartOf="@+id/corporate_live_detail_checkBox"
+                android:layout_marginEnd="22dp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/corporate_live_detail_checkBox"
+                android:layout_gravity="right"
+                android:layout_marginRight="23dp"
+                android:checked="false"
+                android:layout_alignTop="@+id/corporate_live_detail"
+                android:layout_alignRight="@+id/corporate_live_title"
+                android:layout_alignEnd="@+id/corporate_live_title"
+                android:layout_marginEnd="23dp" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:layout_below="@+id/corporate_live_prize"
+            android:id="@+id/recorded_prize">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Recorded"
+                android:textSize="20dp"
+                android:layout_centerHorizontal="true"
+                android:textColor="#2980b9"
+                android:id="@+id/recorded_title"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Access recorded version only \nfor one participant;"
+                android:id="@+id/recorded_detail"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@id/recorded_title"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$0"
+                android:background="@drawable/corners3"
+                android:textColor="#ffffff"
+                android:layout_marginRight="21dp"
+
+                android:id="@+id/recorded_prise"
+                android:layout_alignBottom="@+id/recorded_detail"
+                android:layout_toLeftOf="@+id/recorded_checkBox"
+                android:layout_toStartOf="@+id/recorded_checkBox"
+                android:layout_marginEnd="21dp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/recorded_checkBox"
+                android:layout_gravity="right"
+                android:layout_marginRight="22dp"
+                android:layout_marginEnd="22dp"
+                android:checked="false"
+                android:layout_alignBaseline="@+id/recorded_prise"
+                android:layout_alignBottom="@+id/recorded_prise"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:background="#E1E5E8"
+                android:layout_below="@+id/recorded_prize"
+                android:id="@+id/corp_rec">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Corporate Recorded"
+                    android:textSize="20dp"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#f39c12"
+                    android:id="@+id/corp_recorded_title"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Access recorded version.
+Any number of participants "
+                    android:id="@+id/corp_recorded_detail"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@id/corp_recorded_title"
+                    android:layout_marginTop="10dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$0"
+                    android:background="@drawable/corners2"
+                    android:textColor="#ffffff"
+                    android:layout_marginRight="21dp"
+                    android:id="@+id/corp_recorded_prise"
+                    android:layout_alignBottom="@+id/corp_recorded_detail"
+                    android:layout_toLeftOf="@+id/corp_recorded_checkBox"
+                    android:layout_toStartOf="@+id/corp_recorded_checkBox"
+                    android:layout_marginEnd="21dp" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/corp_recorded_checkBox"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="22dp"
+                    android:layout_marginEnd="22dp"
+                    android:checked="false"
+                    android:layout_alignBaseline="@+id/corp_recorded_prise"
+                    android:layout_alignBottom="@+id/corp_recorded_prise"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>
+
+
+
+

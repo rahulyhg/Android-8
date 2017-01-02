@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ripple="http://schemas.android.com/tools"
+    android:id="@+id/coordinate"
+    android:fitsSystemWindows="true">
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true">
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            android:fitsSystemWindows="true">
+            <RelativeLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:id="@+id/titel_box"
+                app:layout_collapseMode="parallax"
+                android:background="@drawable/webinar_detail_bg">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textSize="20sp"
+                    android:lineSpacingExtra="8dp"
+                    android:id="@+id/titel_box_text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:baselineAligned="true"
+                    android:paddingBottom="65dp"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="bottom"
+                    android:textColor="#ffffff">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:lineSpacingExtra="8dp"
+                    android:id="@+id/productId"
+                    android:text="Product Id"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:baselineAligned="true"
+                    android:paddingBottom="65dp"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="bottom"
+                    android:textColor="#ffffff">
+                </TextView>
+                <RelativeLayout
+                    android:orientation="horizontal"
+                    android:layout_below="@id/titel_box_text"
+                    android:layout_width="match_parent"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="-50dp"
+                    android:id="@+id/hide_bar">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:id="@+id/detail_duration1"
+                        android:textSize="16dp"
+                        android:textColor="#333333"
+                        android:layout_alignTop="@+id/detail_time"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginRight="21dp"
+                        android:layout_marginEnd="21dp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:tint="#36ACC9"
+                        android:id="@+id/ic_date"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="left"
+                        android:src="@drawable/ic_date_range_black_24dp"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:id="@+id/detail_date"
+                        android:layout_gravity="right"
+                        android:layout_marginLeft="34dp"
+                        android:layout_marginTop="5dp"
+                        android:textSize="16dp"
+                        android:textColor="#ffffff"
+                        android:paddingLeft="5dp"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:tint="#36ACC9"
+                        android:id="@+id/ic_query"
+                        android:layout_gravity="right"
+                        android:src="@drawable/ic_query_builder_black_24dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="65dp"
+                        android:layout_marginStart="65dp"
+                        android:layout_alignTop="@+id/detail_date"
+                        android:layout_toRightOf="@+id/detail_date"
+                        android:layout_toEndOf="@+id/detail_date" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:id="@+id/detail_time"
+                        android:textSize="13dp"
+                        android:layout_marginLeft="10dp"
+                        android:tint="#36ACC9"
+                        android:layout_marginTop="8dp"
+                        android:textColor="#ffffff"
+                        android:layout_toRightOf="@+id/ic_query">
+                    </TextView>/>
+                </RelativeLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#607D8B"
+                    android:layout_alignTop="@+id/hide_bar"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:id="@+id/textView3" />
+
+                <ImageView
+                    android:layout_width="14dp"
+                    android:tint="#36ACC9"
+                    android:id="@+id/ic_hourglass_empty"
+                    android:src="@drawable/ic_hourglass_empty_black_24dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="68dp"
+                    android:layout_marginEnd="68dp"
+                    android:layout_above="@+id/textView3"
+                    android:layout_alignRight="@+id/titel_box_text"
+                    android:layout_alignEnd="@+id/titel_box_text" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:id="@+id/detail_duration_time"
+                    android:textSize="13dp"
+                    android:textColor="#ffffff"
+                    android:tint="#36ACC9"
+                    android:gravity="right"
+                    android:layout_alignBottom="@+id/ic_hourglass_empty"
+                    android:layout_alignLeft="@+id/ic_hourglass_empty"
+                    android:layout_alignStart="@+id/ic_hourglass_empty"
+                    android:layout_marginLeft="19dp"
+                    android:layout_marginStart="19dp" />
+            </RelativeLayout>
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:tint="#36ACC9"
+            android:layout_height="wrap_content"
+            android:background="#CFD8DC"/>
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/coordinate"
+        android:layout_marginBottom="15dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="bottom">
+        <com.example.nz160.tejaswini.RippleView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:ripple="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ripple:rv_type="rectangle"
+            ripple:rv_color="#ffffff"
+            ripple:rv_zoom="true"
+            android:gravity="bottom">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Registration"
+                android:id="@+id/register"
+                android:textSize="20dp"
+                android:background="@color/button_color"
+                android:textColor="#ffffff"
+                android:layout_marginTop="50dp"
+                android:layout_below="@+id/recorded_prize"
+                android:layout_gravity="center_horizontal" />
+        </com.example.nz160.tejaswini.RippleView>
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>
+
+
+
