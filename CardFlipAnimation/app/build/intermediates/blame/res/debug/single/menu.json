@@ -1,9 +1,5 @@
 [
     {
-        "merged": "D:\\Android project\\Android-Projects\\Personal_Repo\\Android\\CardFlipAnimation\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main.xml",
-        "source": "D:\\Android project\\Android-Projects\\Personal_Repo\\Android\\CardFlipAnimation\\app\\src\\main\\res\\menu\\activity_main.xml"
-    },
-    {
         "merged": "D:\\Android\\Android\\CardFlipAnimation\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main.xml",
         "source": "D:\\Android\\Android\\CardFlipAnimation\\app\\src\\main\\res\\menu\\activity_main.xml"
     }

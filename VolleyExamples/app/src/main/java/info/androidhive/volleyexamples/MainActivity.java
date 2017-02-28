@@ -129,7 +129,7 @@ public class MainActivity extends Activity implements OnClickListener {
 				DefaultRetryPolicy.DEFAULT_MAX_RETRIES,
 				DefaultRetryPolicy.DEFAULT_BACKOFF_MULT));
 		// Adding request to request queue
-		AppController.getInstance().addToRequestQueue(strReq, tag_string_req);
+		//AppController.getInstance().addToRequestQueue(strReq, tag_string_req);
 
 	}
 }

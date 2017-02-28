@@ -1,8 +1,6 @@
 -- Merging decision tree log ---
 manifest
 ADDED from D:\Android\Android\CardFlipAnimation\app\src\main\AndroidManifest.xml:2:1-27:12
-	xmlns:android
-		ADDED from D:\Android\Android\CardFlipAnimation\app\src\main\AndroidManifest.xml:2:11-69
 	package
 		ADDED from D:\Android\Android\CardFlipAnimation\app\src\main\AndroidManifest.xml:3:5-44
 		INJECTED from D:\Android\Android\CardFlipAnimation\app\src\main\AndroidManifest.xml
@@ -15,6 +13,8 @@ ADDED from D:\Android\Android\CardFlipAnimation\app\src\main\AndroidManifest.xml
 		ADDED from D:\Android\Android\CardFlipAnimation\app\src\main\AndroidManifest.xml:4:5-28
 		INJECTED from D:\Android\Android\CardFlipAnimation\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Android\Android\CardFlipAnimation\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Android\Android\CardFlipAnimation\app\src\main\AndroidManifest.xml:2:11-69
 uses-sdk
 ADDED from D:\Android\Android\CardFlipAnimation\app\src\main\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:support-v13:23.1.1] D:\Android\Android\CardFlipAnimation\app\build\intermediates\exploded-aar\com.android.support\support-v13\23.1.1\AndroidManifest.xml:20:5-44

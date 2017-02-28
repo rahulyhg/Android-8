@@ -1,0 +1,22 @@
+package hibernet_example.Dao;
+
+import java.util.List;
+
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+import javax.persistence.TypedQuery;
+
+public class BooksDaoImpl implements BooksDao {
+
+	@PersistenceContext 	 
+	private EntityManager entityManager;
+	public void persistance(Object object) {
+		entityManager.persist(object);
+	}
+
+	public <T> List<T> getAll(Class<T> clazz) {
+		TypedQuery<T> query=entityManager.createQuery("from " + clazz.getName(),);
+		return null;
+	}
+
+}

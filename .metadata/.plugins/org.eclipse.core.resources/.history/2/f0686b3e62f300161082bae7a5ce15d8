@@ -1,0 +1,7 @@
+package hibernet_example.Dao;
+
+public interface BooksDao {
+	
+	public void persistance(Object object);
+
+}

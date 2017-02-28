@@ -1,0 +1,17 @@
+package hibernet_example.Dao;
+
+import java.util.List;
+
+public class BooksDaoImpl implements BooksDao {
+
+	public void persistance(Object object) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public <T> List<T> getAll(Class<T> clazz) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

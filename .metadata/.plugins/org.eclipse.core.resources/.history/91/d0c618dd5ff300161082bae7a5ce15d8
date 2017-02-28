@@ -1,0 +1,7 @@
+package hibernet_example.domain;
+
+public class Books {
+
+	private int bookId;
+	private String title
+}

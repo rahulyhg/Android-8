@@ -4,35 +4,103 @@
     <item
         jar="D:\Android\Android\CardFlipAnimation\app\build\intermediates\exploded-aar\com.android.support\support-v13\23.1.1\jars\libs\internal_impl-23.1.1.jar"
         jumboMode="false"
+        optimize="true"
         revision="23.0.2"
         sha1="f4d7a07120e76988f3a15403838d323c2400db83">
         <dex dex="D:\Android\Android\CardFlipAnimation\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_73a28e94525ab89bd182e49343096026c7d190e2.jar" />
     </item>
     <item
-        jar="C:\Users\nz160\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
-        <dex dex="D:\Android\Android\CardFlipAnimation\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1_f9e1faf2ee4cf16687e3ba0492bf75a1495d4931.jar" />
-    </item>
-    <item
-        jar="D:\Android\Android\CardFlipAnimation\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
-        <dex dex="D:\Android\Android\CardFlipAnimation\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.1.1_780bd792a1a1450d0dd00ecf1542246c057c2d25.jar" />
+        is-multidex="false"
+        jar="D:\Android\Android\CardFlipAnimation\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="D:\Android\Android\CardFlipAnimation\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_9e0d1dd4fca4f65cc0e150aff56ce499438f9dd7.jar" />
     </item>
     <item
         jar="D:\Android\Android\CardFlipAnimation\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
         jumboMode="false"
+        optimize="true"
         revision="23.0.2"
         sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
         <dex dex="D:\Android\Android\CardFlipAnimation\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_9e0d1dd4fca4f65cc0e150aff56ce499438f9dd7.jar" />
     </item>
     <item
+        jar="C:\Users\nz160\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="D:\Android\Android\CardFlipAnimation\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1_f9e1faf2ee4cf16687e3ba0492bf75a1495d4931.jar" />
+    </item>
+    <item
         jar="D:\Android\Android\CardFlipAnimation\app\build\intermediates\exploded-aar\com.android.support\support-v13\23.1.1\jars\classes.jar"
         jumboMode="false"
+        optimize="true"
         revision="23.0.2"
+        sha1="5ddf5f4817565c9db82613c16093f76640a54e15">
+        <dex dex="D:\Android\Android\CardFlipAnimation\app\build\intermediates\pre-dexed\debug\com.android.support-support-v13-23.1.1_488844e3d4e3ba59c99cc84b16cadd20463d7778.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android\Android\CardFlipAnimation\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d0cee5893b2bf3916a1e620cc96228f1e525b385">
+        <dex dex="D:\Android\Android\CardFlipAnimation\app\build\intermediates\pre-dexed\debug\instant-run_2df33eee68863f2236bca1562c3916f9aeab8256.jar" />
+    </item>
+    <item
+        jar="D:\Android\Android\CardFlipAnimation\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="D:\Android\Android\CardFlipAnimation\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.1.1_780bd792a1a1450d0dd00ecf1542246c057c2d25.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android\Android\CardFlipAnimation\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="D:\Android\Android\CardFlipAnimation\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.1.1_780bd792a1a1450d0dd00ecf1542246c057c2d25.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android\Android\CardFlipAnimation\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="59cf359cd7a36b96f12a10f20cf207d70186740b">
+        <dex dex="D:\Android\Android\CardFlipAnimation\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_fe68e39565d6c72ee8018869c9db2db208fd60ff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\nz160\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="D:\Android\Android\CardFlipAnimation\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1_f9e1faf2ee4cf16687e3ba0492bf75a1495d4931.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android\Android\CardFlipAnimation\app\build\intermediates\exploded-aar\com.android.support\support-v13\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f4d7a07120e76988f3a15403838d323c2400db83">
+        <dex dex="D:\Android\Android\CardFlipAnimation\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_73a28e94525ab89bd182e49343096026c7d190e2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android\Android\CardFlipAnimation\app\build\intermediates\exploded-aar\com.android.support\support-v13\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
         sha1="5ddf5f4817565c9db82613c16093f76640a54e15">
         <dex dex="D:\Android\Android\CardFlipAnimation\app\build\intermediates\pre-dexed\debug\com.android.support-support-v13-23.1.1_488844e3d4e3ba59c99cc84b16cadd20463d7778.jar" />
     </item>

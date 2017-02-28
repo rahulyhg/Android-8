@@ -1,0 +1,11 @@
+package hibernet_example.Dao;
+
+import java.util.List;
+
+public interface BooksDao {
+	
+	public void persistance(Object object);
+	
+	public <T>List<T> getAll(Class<T> clazz);
+
+}

@@ -1,31 +1,15 @@
 [
     {
-        "merged": "D:\\Android\\Android\\CardFlipAnimation\\app\\build\\intermediates\\res\\merged\\debug\\animator\\card_flip_right_out.xml",
-        "source": "D:\\Android\\Android\\CardFlipAnimation\\app\\src\\main\\res\\animator\\card_flip_right_out.xml"
-    },
-    {
-        "merged": "D:\\Android project\\Android-Projects\\Personal_Repo\\Android\\CardFlipAnimation\\app\\build\\intermediates\\res\\merged\\debug\\animator\\card_flip_left_in.xml",
-        "source": "D:\\Android project\\Android-Projects\\Personal_Repo\\Android\\CardFlipAnimation\\app\\src\\main\\res\\animator\\card_flip_left_in.xml"
-    },
-    {
-        "merged": "D:\\Android project\\Android-Projects\\Personal_Repo\\Android\\CardFlipAnimation\\app\\build\\intermediates\\res\\merged\\debug\\animator\\card_flip_right_out.xml",
-        "source": "D:\\Android project\\Android-Projects\\Personal_Repo\\Android\\CardFlipAnimation\\app\\src\\main\\res\\animator\\card_flip_right_out.xml"
-    },
-    {
-        "merged": "D:\\Android project\\Android-Projects\\Personal_Repo\\Android\\CardFlipAnimation\\app\\build\\intermediates\\res\\merged\\debug\\animator\\card_flip_right_in.xml",
-        "source": "D:\\Android project\\Android-Projects\\Personal_Repo\\Android\\CardFlipAnimation\\app\\src\\main\\res\\animator\\card_flip_right_in.xml"
+        "merged": "D:\\Android\\Android\\CardFlipAnimation\\app\\build\\intermediates\\res\\merged\\debug\\animator\\card_flip_left_out.xml",
+        "source": "D:\\Android\\Android\\CardFlipAnimation\\app\\src\\main\\res\\animator\\card_flip_left_out.xml"
     },
     {
         "merged": "D:\\Android\\Android\\CardFlipAnimation\\app\\build\\intermediates\\res\\merged\\debug\\animator\\card_flip_left_in.xml",
         "source": "D:\\Android\\Android\\CardFlipAnimation\\app\\src\\main\\res\\animator\\card_flip_left_in.xml"
     },
     {
-        "merged": "D:\\Android project\\Android-Projects\\Personal_Repo\\Android\\CardFlipAnimation\\app\\build\\intermediates\\res\\merged\\debug\\animator\\card_flip_left_out.xml",
-        "source": "D:\\Android project\\Android-Projects\\Personal_Repo\\Android\\CardFlipAnimation\\app\\src\\main\\res\\animator\\card_flip_left_out.xml"
-    },
-    {
-        "merged": "D:\\Android\\Android\\CardFlipAnimation\\app\\build\\intermediates\\res\\merged\\debug\\animator\\card_flip_left_out.xml",
-        "source": "D:\\Android\\Android\\CardFlipAnimation\\app\\src\\main\\res\\animator\\card_flip_left_out.xml"
+        "merged": "D:\\Android\\Android\\CardFlipAnimation\\app\\build\\intermediates\\res\\merged\\debug\\animator\\card_flip_right_out.xml",
+        "source": "D:\\Android\\Android\\CardFlipAnimation\\app\\src\\main\\res\\animator\\card_flip_right_out.xml"
     },
     {
         "merged": "D:\\Android\\Android\\CardFlipAnimation\\app\\build\\intermediates\\res\\merged\\debug\\animator\\card_flip_right_in.xml",

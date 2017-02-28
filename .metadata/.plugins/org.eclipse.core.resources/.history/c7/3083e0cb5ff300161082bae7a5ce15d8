@@ -1,0 +1,5 @@
+package hibernet_example.domain;
+
+public class Books {
+
+}

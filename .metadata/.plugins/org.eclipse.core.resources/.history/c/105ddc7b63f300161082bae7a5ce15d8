@@ -1,0 +1,22 @@
+package hibernet_example.Dao;
+
+import java.util.List;
+
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+
+public class BooksDaoImpl implements BooksDao {
+
+	@PersistenceContext 	 
+	private EntityManager entityManager
+	public void persistance(Object object) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public <T> List<T> getAll(Class<T> clazz) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

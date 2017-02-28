@@ -1,0 +1,5 @@
+package hibernet_example.Dao;
+
+public class BooksDaoImpl implements BooksDao {
+
+}
