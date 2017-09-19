@@ -31,7 +31,6 @@ public class ListView_Recycler_Adapter extends
 	@Override
 	public int getItemCount() {
 		return (null != arrayList ? arrayList.size() : 0);
-
 	}
 
 	@Override
@@ -43,7 +42,6 @@ public class ListView_Recycler_Adapter extends
 		Bitmap image = BitmapFactory.decodeResource(context.getResources(),
 				model.getImage());// This will convert drawbale image into
 									// bitmap
-
 		// setting data over views
 		mainHolder.list_title.setText(model.getTitle());
 		mainHolder.list_location.setText(model.getLocation());
@@ -63,10 +61,8 @@ public class ListView_Recycler_Adapter extends
 							"You have clicked " + model.getTitle(),
 							Toast.LENGTH_LONG).show();
 					break;
-
 				}
 			}
-
 		});
 
 	}

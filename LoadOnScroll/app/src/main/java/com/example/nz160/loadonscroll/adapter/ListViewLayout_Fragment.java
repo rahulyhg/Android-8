@@ -102,7 +102,6 @@ public class ListViewLayout_Fragment extends Fragment {
 					userScrolled = true;
 
 				}
-
 			}
 
 			@Override
@@ -151,7 +150,6 @@ public class ListViewLayout_Fragment extends Fragment {
 
 				// After adding new data hide the view.
 				bottomLayout.setVisibility(View.GONE);
-
 			}
 		}, 5000);
 	}

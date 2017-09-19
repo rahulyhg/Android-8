@@ -27,7 +27,6 @@ public class MainActivity extends AppCompatActivity implements TabListener {
 		//setTabs();
 	}
 
-	
 	//initialize the view pager 
 	private void init() {
 		viewPager = (ViewPager) findViewById(R.id.pager);
@@ -48,15 +47,12 @@ public class MainActivity extends AppCompatActivity implements TabListener {
 
 			@Override
 			public void onPageScrolled(int arg0, float arg1, int arg2) {
-
 			}
-
 			@Override
 			public void onPageScrollStateChanged(int arg0) {
 
 			}
 		});
-
 	}
 
 	private void setTabs() {
@@ -105,7 +101,6 @@ public class MainActivity extends AppCompatActivity implements TabListener {
 	private class MyAdapter extends FragmentPagerAdapter {
 		public MyAdapter(FragmentManager fm) {
 			super(fm);
-
 		}
 
 		@Override
