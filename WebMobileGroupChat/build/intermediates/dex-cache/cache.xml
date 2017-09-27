@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\nz160\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="D:\Android\Android\WebMobileGroupChat\webMobileGroupChat\build\intermediates\pre-dexed\debug\support-annotations-23.0.0_38e6fbd8a8a010c4baf8bd0c5a1756c15d530e71.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android\Android\WebMobileGroupChat\webMobileGroupChat\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="D:\Android\Android\WebMobileGroupChat\webMobileGroupChat\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.0.0_e48945330e180385d10e84e331005641cd5100c0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android\Android\WebMobileGroupChat\webMobileGroupChat\build\intermediates\exploded-aar\WebMobileGroupChat\androidwebsocketsmaster\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="48941b4ae4dfee3725ee4d061c80fcc146df816d">
+        <dex dex="D:\Android\Android\WebMobileGroupChat\webMobileGroupChat\build\intermediates\pre-dexed\debug\WebMobileGroupChat-androidwebsocketsmaster-unspecified_130598f7762787c84a634d6f036c1a4ddff98e55.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android\Android\WebMobileGroupChat\webMobileGroupChat\build\intermediates\exploded-aar\WebMobileGroupChat\androidwebsocketsmaster\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="48941b4ae4dfee3725ee4d061c80fcc146df816d">
+        <dex dex="D:\Android\Android\WebMobileGroupChat\webMobileGroupChat\build\intermediates\pre-dexed\debug\WebMobileGroupChat-androidwebsocketsmaster-unspecified_130598f7762787c84a634d6f036c1a4ddff98e55.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android\Android\WebMobileGroupChat\webMobileGroupChat\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="D:\Android\Android\WebMobileGroupChat\webMobileGroupChat\build\intermediates\pre-dexed\debug\internal_impl-23.0.0_4a04e6858bd9146a47bd8a48b6cb85c3468b2f2c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android\Android\WebMobileGroupChat\webMobileGroupChat\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="D:\Android\Android\WebMobileGroupChat\webMobileGroupChat\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.0.0_19af2a9f926407e75a9f75e610a5045c106506b2.jar" />
+    </item>
+
+</items>

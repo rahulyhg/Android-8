@@ -1,0 +1,4 @@
+#Wed Sep 27 15:28:25 IST 2017
+base.0=D\:\\Android\\Android\\WebMobileGroupChat\\webMobileGroupChat\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=D\:\\Android\\Android\\WebMobileGroupChat\\webMobileGroupChat\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
