@@ -63,7 +63,7 @@ public class MainActivity extends Activity {
         Intent i = getIntent();
         name = i.getStringExtra("name");
 
-       btnSend.setOnClickListener(new View.OnClickListener() {
+        btnSend.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
@@ -80,7 +80,6 @@ public class MainActivity extends Activity {
 
         adapter = new MessagesListAdapter(this, listMessages);
         listViewMessages.setAdapter(adapter);
-
         client = new WebSocketClient(URI.create(WsConfig.URL_WEBSOCKET
                 + URLEncoder.encode(name)), new WebSocketClient.Listener() {
             @Override
@@ -101,20 +100,16 @@ public class MainActivity extends Activity {
             public void onMessage(byte[] data) {
                 Log.d(TAG, String.format("Got binary message! %s",
                         bytesToHex(data)));
-
                 // Message will be in JSON format
                 parseMessage(bytesToHex(data));
             }
-
-
+            
             @Override
             public void onDisconnect(int code, String reason) {
 
                 String message = String.format(Locale.US,
                         "Disconnected! Code: %d Reason: %s", code, reason);
-
                 showToast(message);
-
                 // clear the session id from shared preferences
                 utils.storeSessionId(null);
             }
@@ -131,13 +126,11 @@ public class MainActivity extends Activity {
         client.connect();
     }
 
-
     private void sendMessageToServer(String message) {
         if (client != null && client.isConnected()) {
             client.send(message);
         }
     }
-
 
     private void parseMessage(final String msg) {
 
@@ -197,7 +190,6 @@ public class MainActivity extends Activity {
         } catch (JSONException e) {
             e.printStackTrace();
         }
-
     }
 
     @Override

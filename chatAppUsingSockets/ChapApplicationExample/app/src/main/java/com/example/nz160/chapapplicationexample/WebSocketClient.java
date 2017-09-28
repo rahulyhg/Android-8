@@ -72,7 +72,8 @@ public class WebSocketClient {
             @Override
             public void run() {
                 try {
-                    int port = (mURI.getPort() != -1) ? mURI.getPort() : ((mURI.getScheme().equals("wss") || mURI.getScheme().equals("https")) ? 443 : 80);
+                    int port = (mURI.getPort() != -1) ? mURI.getPort() :
+                            ((mURI.getScheme().equals("wss") || mURI.getScheme().equals("https")) ? 443 : 80);
 
                     String path = TextUtils.isEmpty(mURI.getPath()) ? "/" : mURI.getPath();
                     if (!TextUtils.isEmpty(mURI.getQuery())) {
@@ -82,7 +83,9 @@ public class WebSocketClient {
                     String originScheme = mURI.getScheme().equals("wss") ? "https" : "http";
                     URI origin = new URI(originScheme, "//" + mURI.getHost(), null);
 
-                    SocketFactory factory = (mURI.getScheme().equals("wss") || mURI.getScheme().equals("https")) ? getSSLSocketFactory() : SocketFactory.getDefault();
+                    SocketFactory factory = (mURI.getScheme().equals("wss") ||
+                            mURI.getScheme().equals("https")) ? getSSLSocketFactory()
+                            : SocketFactory.getDefault();
                     mSocket = factory.createSocket(mURI.getHost(), port);
 
                     PrintWriter out = new PrintWriter(mSocket.getOutputStream());
@@ -121,7 +124,8 @@ public class WebSocketClient {
                             if (expected == null) {
                                 throw new Exception("SHA-1 algorithm not found");
                             } else if (!expected.equals(header.getValue())) {
-                                throw new Exception("Invalid Sec-WebSocket-Accept, expected: " + expected + ", got: " + header.getValue());
+                                throw new Exception("Invalid Sec-WebSocket-Accept, expected: "
+                                        + expected + ", got: " + header.getValue());
                             }
                         }
                     }
