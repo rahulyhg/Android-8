@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="D:\Android project\Android-Projects\Personal_Repo\Android\OTPDemo\app\src\main\assets"/></dataSet><dataSet config="debug"><source path="D:\Android project\Android-Projects\Personal_Repo\Android\OTPDemo\app\src\debug\assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="D:\Android\Android\OTPDemo\app\src\main\assets"/></dataSet><dataSet config="debug"><source path="D:\Android\Android\OTPDemo\app\src\debug\assets"/></dataSet></merger>

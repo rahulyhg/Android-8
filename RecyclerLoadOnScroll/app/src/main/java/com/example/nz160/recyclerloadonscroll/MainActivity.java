@@ -81,6 +81,7 @@ public class MainActivity extends AppCompatActivity {
             progressBar = (ProgressBar) itemView.findViewById(R.id.progressBar1);
         }
     }
+
     class UserAdapter extends RecyclerView.Adapter < RecyclerView.ViewHolder > {
         private final int VIEW_TYPE_ITEM = 0;
         private final int VIEW_TYPE_LOADING = 1;
@@ -150,7 +151,5 @@ public class MainActivity extends AppCompatActivity {
         public void setLoaded() {
             isLoading = false;
         }
-
-
     }
 }

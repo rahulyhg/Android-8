@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 21
-    buildToolsVersion "23.0.2"
+    compileSdkVersion 23
+    buildToolsVersion "23.0.1"
 
     defaultConfig {
         applicationId "android.intel.sample.otpdemo"
-        minSdkVersion 4
-        targetSdkVersion 10
+        minSdkVersion 15
+        targetSdkVersion 23
     }
 
     buildTypes {
@@ -17,7 +17,10 @@ android {
         }
     }
     dependencies {
-
+        compile files('libs/httpclient-4.2.3.jar')
+        compile files('libs/httpcore.jar')
+        compile files('libs/httpmime-4.2.3.jar')
         compile files('libs/wrapper.jar')
+
     }
 }

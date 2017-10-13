@@ -52,7 +52,6 @@ import android.util.Log;
 import android.widget.TextView;
 
 import android.intel.sample.otpdemo.R;
-import com.intel.android.ipt.wrapper.Base64Util;
 
 public class LoginActivity extends Activity {
 
